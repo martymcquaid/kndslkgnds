@@ -34,9 +34,9 @@ export default function Home() {
               <button className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition-colors">
                 Get Free Quote
               </button>
-              <button className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg text-lg hover:bg-blue-50 transition-colors">
-                View Services
-              </button>
+              <a href="/about" className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg text-lg hover:bg-blue-50 transition-colors text-center">
+                Learn About Us
+              </a>
             </div>
           </div>
         </div>
