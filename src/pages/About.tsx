@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function About() {
   return (
     <div className="min-h-screen">
@@ -18,10 +20,10 @@ export default function About() {
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
-              <a href="/about" className="text-blue-600 font-medium">About</a>
-              <a href="/#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Services</a>
-              <a href="/#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a>
+              <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</Link>
+              <Link to="/about" className="text-blue-600 font-medium">About</Link>
+              <Link to="/#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Services</Link>
+              <Link to="/#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</Link>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
                 Book Now
               </button>
